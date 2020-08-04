@@ -8,6 +8,8 @@ https://www.wikitree.co.kr/articles/558182
 
 또한 사진의 양 옆은 원하는 만큼 잘라서 찍을 수 있다.
 
+![](https://github.com/iknoom/uospc2020/blob/master/problems/iknoom/images/big_picture_example.png)
+
 ```
 예제 입력
 ABCDEFGHIJK
