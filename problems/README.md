@@ -10,3 +10,9 @@
 4. Longest uncrossed bishop's path / bfs? / S
 
 ## powergee
+1. 이산수학및컴퓨터알고리즘개론및실습및종합설계 (15학점) 기말 대체 과제 / 수학? / G
+2. 액자 놓기 / DP / G
+3. (제목 미정) / 세그먼트 트리 / P
+
+## yonsweng
+1. 미정 / dp, game theory / G
