@@ -16,4 +16,4 @@
 
 ## yonsweng
 1. 미정 / dp, game theory / G
-2. 코로나20 / dfs / S
+2. 코로나20 / Dijkstra / S
