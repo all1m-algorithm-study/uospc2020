@@ -9,5 +9,5 @@
 비숍이 방문한 위치를 다시 방문하지 않고 방문했을 때 방문할 수 있는 칸의 수의 최댓값을 구하시오.
 
 ## 힌트
-
+아래 그림은 최적해 아니다..한칸 더 방문 가능 (수정 예정)
 ![그림1](https://github.com/iknoom/uospc2020/blob/master/problems/iknoom/_images/bishop_img.png)
