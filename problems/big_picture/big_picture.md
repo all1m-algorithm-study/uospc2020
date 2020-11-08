@@ -11,9 +11,9 @@
 
 아래는 `HELLO WORLD`라는 문자열이 주어졌을 때 `LOL`이 뒤에오도록 사진을 찍는 예이다.
 
-![그림1](.\images\big_picture_img1.png)
+![big_picture_img1](./images/big_picture_img1.png)
 
-![그림2](.\images\big_picture_img2.png)
+![big_picture_img2](./images/big_picture_img2.png)
 
 주어진 문자열을 루피가 원하는 단어가 뒤에 오도록 사진을 찍을 수 있는지 판별하는 프로그램을 작성하시오.
 
