@@ -56,7 +56,7 @@
 
 ## 힌트
 
-![d](.\images\cut_leaf_image.png)
+![그림1](https://github.com/iknoom/uospc2020/blob/master/problems/cut_leaf/images/cut_leaf_image.png)
 
 예제 입력 1의 트리를 그려보면 위와 같다.
 
