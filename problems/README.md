@@ -35,5 +35,5 @@ div2. 6문제
 
 ## yonsweng
 1. 문기의 최선의 전략 / DP, game theory / G
-2. 코로나20 / BFS / S
+2. 코로나20 / BFS / G
 3. 문기의 크리스마스 난제 / greedy / S
