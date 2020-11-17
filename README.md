@@ -40,10 +40,42 @@
 
 https://github.com/ucpcc/problemsetting-guidelines
 
+
+
 # 3. Testcase 작성(polygon)
 
-- solution(AC, WA, TLE)
+**polygon 튜토리얼** : http://www.secmem.org/blog/2019/05/17/polygon-how-to-use/
 
-# 4. 풀이 작성(tex or docx)
+### 1. 소스코드 작성
+
+- `Data_Generator.cpp`
+- `Validator.cpp`
+- `Checker.cpp`
+- `solution_ac.cpp` `solution_wa.cpp` `solution_tle.cpp`
+
+### 2. 파일 업로드
+
+- Files: `Data_Generator.cpp` `Validator.cpp` `Checker.cpp` 업로드
+- **Solution files**: `solution_ac.cpp` `solution_wa.cpp` `solution_tle.cpp` 업로드
+
+### 3. 파일 연결
+
+- **Checker**: 채점 방식을 관리 `Checker.cpp`
+- **Validator**: 등록된 데이터가 valid한지 검사하는 프로그램을 관리 `Validator.cpp`
+- **Tests**: 테스트 데이터를 관리 `Data_Generator.cpp`
+
+### 4. 데이터 검증
+
+- **Invocation**: 솔루션과 테스트 데이터를 선택하면 선택한 솔루션이 테스트 데이터에 대해 어떤 결과가 나오는지, 지정한 상태(Accepted, WA, TLE …)와 일치하는지를 검사
+
+- Stresses: 정답 솔루션과 틀린 솔루션, 데이터 생성기를 등록하면 두 코드가 다른 답을 출력하는 데이터를 생성
+
+### 5. 다운로드
+
+- Packages: 위 메뉴들에서 관리한 모든 상태를 묶어 다운로드(-> test case 다운로드)
+
+
+
+# 4. 풀이 작성
 
 대회 끝나고 바로 공개 가능하도록!
