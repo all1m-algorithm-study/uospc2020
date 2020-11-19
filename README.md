@@ -49,8 +49,8 @@ https://github.com/ucpcc/problemsetting-guidelines
 ### 1. 소스코드 작성
 
 - `Data_Generator.cpp`
-- `Validator.cpp`
-- `Checker.cpp`
+- `Validator.cpp`(필수 아님, 데이터를 지문에 맞게 생성했는지 확인)
+- `Checker.cpp`(스페셜 저지인 경우만 직접 작성)
 - `solution_ac.cpp` `solution_wa.cpp` `solution_tle.cpp`
 
 ### 2. 파일 업로드
