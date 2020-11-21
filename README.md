@@ -25,7 +25,7 @@
 | 5    | 액자 놓기(frame)                      | 김정현 |                             |
 | 6    | CUTTER!(cut_leaf)          | 최문기 | G2 ~ G1                     |
 | 7    | 로봇 청소기(robotic-vacuum)           | 김정현 |                             |
-| 8    | 문기의 최선의 전략(best-strategy)     | 최연웅 | G3 ~ G2                      |
+| 8    | 정현이와 문기의 최선의 전략(best-strategy)     | 최연웅 | G3 ~ G2                      |
 
 예비 문제
 
