@@ -4,7 +4,7 @@
 using namespace std;
 
 const long long INF = 1000000000;
-const int MAXN = 1000000;
+const int MAXN = 100000;
 int curr_max[MAXN + 1];
 vector<pair<int, int>> adj[MAXN + 1];
 queue<int> q;
@@ -25,7 +25,7 @@ int pop() {
 }
 
 int main() {
-    ios::sync_with_stdio(false), cin.tie(nullptr);
+    // ios::sync_with_stdio(false), cin.tie(nullptr);
 
     int n, m, l;
     cin >> n >> m >> l;

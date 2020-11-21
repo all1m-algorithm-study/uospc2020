@@ -17,8 +17,8 @@ int main(int argc, char* argv[]) {
     int c_max = atoi(argv[5]);
 
     assert(1 <= n && n <= m);
-    assert(1 <= m && m <= 1000000);
-    assert(0 <= l && l <= 1000000);
+    assert(1 <= m && m <= 100000);
+    assert(0 <= l && l <= 100000);
     assert(0 <= c_min && c_min <= c_max && c_max <= 1000000000);
 
     vector<int> num_list(m + 1);
@@ -40,8 +40,6 @@ int main(int argc, char* argv[]) {
         int a = rnd.next(1, m - 1);
         int b = rnd.next(a + 1, m);
         int c = rnd.next(c_min, c_max);
-        if (rnd.next(0, 1) == 1)
-            swap(a, b);
         edges.emplace_back(a, b, c);
     }
     sort(edges.begin(), edges.end());
@@ -53,7 +51,10 @@ int main(int argc, char* argv[]) {
 
     // edges 출력
     for (auto edge : edges) {
-        cout << get<0>(edge) << ' ' << get<1>(edge) << ' ' << get<2>(edge) << '\n';
+        if (rnd.next(0, 1) == 0)
+            cout << get<0>(edge) << ' ' << get<1>(edge) << ' ' << get<2>(edge) << '\n';
+        else
+            cout << get<1>(edge) << ' ' << get<0>(edge) << ' ' << get<2>(edge) << '\n';
     }
 
     return 0;
