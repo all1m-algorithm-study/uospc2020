@@ -1,7 +1,7 @@
 import os
 import shutil
 
-path_from = "problems/x_mas"
+path_from = "problems/frame"
 
 for (path, dir, files) in os.walk(path_from):
     if path[-5:] != "tests": continue
