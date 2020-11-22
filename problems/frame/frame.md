@@ -11,15 +11,15 @@
 예를 들어, 벽의 가로 크기와 세로 크기가 모두 5인 벽이 아래와 같은 상태라고 하자. 회색으로 칠해진 부분은 이미 다른 액자가 있어서 다른 액자를 놓을 수 없는 위치이다.
 
 
-<div style="text-align:center"><img src="../_images/frame-1.png" /></div>
+<div style="text-align:center"><img src="./images/frame-1.png" /></div>
 
 그리고 정현이의 장바구니에 있는 4가지의 액자가 아래와 같은 크기라고 하자.
 
-<div style="text-align:center"><img src="../_images/frame-2.png" /></div>
+<div style="text-align:center"><img src="./images/frame-2.png" /></div>
 
 그렇다면 1번 액자는 어느 위치에 놓더라도 이미 있는 액자와 겹치게 되므로 벽에 놓을 수 없고, 나머지 2, 3, 4번 액자는 놓을 수 있는 위치가 존재한다. 따라서 이 예시에서는 놓을 수 있는 액자의 개수가 3개이고, 그것들의 목록은 2, 3, 4이다. 아래는 2, 3, 4번 액자 각각을 벽에 건 예시이다.
 
-<div style="text-align:center"><img src="../_images/frame-3.png" /></div>
+<div style="text-align:center"><img src="./images/frame-3.png" /></div>
 
 (위의 그림에서 2, 3, 4번이 겹치는 영역이 있지만 이는 문제가 되지 않는다. 왜냐하면 문제에서 언급한 것처럼 정현이는 장바구니의 액자들 중 단 하나만 구입할 것이기에, 각 액자를 놓을 수 있는지 여부만 중요하기 때문이다.)
 
