@@ -2,10 +2,12 @@
 #include <algorithm>
 #include <vector>
 
+typedef long long Long;
+
 struct ChildInfo
 {
     int number;
-    int pipeHeight;
+    Long pipeHeight;
 
     bool operator<(const ChildInfo& ch) const
     {
@@ -14,17 +16,17 @@ struct ChildInfo
 };
 
 int n;
-int areas[10000], heights[10000];
+Long areas[10000], heights[10000];
 std::vector<ChildInfo> children[10000];
-int answer[10000];
+Long answer[10000];
 
-int getTime(int node, int currTime)
+Long getTime(int node, Long currTime)
 {
-    int bottom = 0;
+    Long bottom = 0;
 
     for (ChildInfo child : children[node])
     {
-        int elapsed = (child.pipeHeight - bottom) * areas[node];
+        Long elapsed = (child.pipeHeight - bottom) * areas[node];
         currTime = getTime(child.number, currTime + elapsed);
         bottom = child.pipeHeight;
     }
@@ -40,16 +42,17 @@ int main()
 
     for (int i = 0; i < n; ++i)
     {
-        int s, h;
-        scanf("%d %d", &s, &h);
+        Long s, h;
+        scanf("%lld %lld", &s, &h);
         areas[i] = s;
         heights[i] = h;
     }
 
     for (int i = 0; i < n-1; ++i)
     {
-        int u, v, h;
-        scanf("%d %d %d", &u, &v, &h);
+        int u, v;
+        Long h;
+        scanf("%d %d %lld", &u, &v, &h);
         children[u-1].push_back({v-1, h});
     }
 
@@ -58,7 +61,7 @@ int main()
     
     getTime(0, 0);
     for (int i = 0; i < n; ++i)
-        printf("%d\n", answer[i]);
+        printf("%lld\n", answer[i]);
 
     return 0;
 }
