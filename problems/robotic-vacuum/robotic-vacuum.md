@@ -25,7 +25,7 @@
 1. 소스코드에는 공백 문자가 사용되지 않는다.
 2. 전체 프로그램 소스는 하나의 `<program>`이다.
 3. `<program>`은 빈 문자열이거나, `<statement>`와 `<program>`이 연결된 문자열이다.
-4. `<statement>`는 `<command>` 이거나, `<if-block>` 이거나, `<until-block>`이다.
+4. `<statement>`는 `<command>` 이거나, `<if-block>` 이거나, `<while-block>` 이거나, `<until-block>`이다.
 5. `<command>`는 "L", "R", "G" 중 하나이다.
    * "L"이 실행되면 로봇이 왼쪽으로 돌아 원래 보던 방향의 왼쪽을 본다.
    * "R"이 실행되면 로봇이 오른쪽으로 돌아 원래 보던 방향의 오른쪽을 본다.
