@@ -1,14 +1,19 @@
+# Made by iknoom
+# Modified by yonsweng
+
+# path_from/tests/01 -> path_from/testcases/01.in
+# path_from/tests/01.a -> path_from/testcases/01.out
+
 import os
 import shutil
 
-path_from = "problems/frame"
+path_from = "problems/best_strategy"
 
 for (path, dir, files) in os.walk(path_from):
     if path[-5:] != "tests": continue
-    os.mkdir(path + '/testcases')
     for filename in files:
-        src = path + '/' + filename
-        dst = path + '/testcases/' + filename
+        src = os.path.join(path, filename)
+        dst = os.path.join(path, '../testcases/', filename)
         if filename[-2:] == '.a':
             dst = dst[:-2] + '.out'
         else:
