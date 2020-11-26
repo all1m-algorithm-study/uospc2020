@@ -7,7 +7,7 @@
 import os
 import shutil
 
-path_from = "problems/best_strategy"
+path_from = "problems/x_mas"
 
 for (path, dir, files) in os.walk(path_from):
     if path[-5:] != "tests": continue
