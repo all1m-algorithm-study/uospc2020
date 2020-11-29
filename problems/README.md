@@ -1,5 +1,5 @@
 # UOSPC 2020
-![logo](UOSPC 2020.png)
+![logo](./UOSPC 2020.png)
 
 ## div2
 
