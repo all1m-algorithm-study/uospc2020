@@ -27,11 +27,6 @@
 | 7    | 로봇 청소기(robotic-vacuum)           | 김정현 |     G1~P5                   |
 | 8    | 정현이와 문기의 최선의 전략(best-strategy)     | 최연웅 | G3                  |
 
-예비 문제
-
-- 이산수학및컴퓨터알고리즘개론및실습및종합설계 (15학점) 기말 대체 과제(dmalg)
-- Longest uncrossed bishop's path(longest_uncrossed_bishop)
-
 
 
 # 2. 문제지 작성(markdown)
