@@ -1,5 +1,5 @@
 # UOSPC 2020
-![logo](./UOSPC 2020.png)
+![logo](https://github.com/iknoom/uospc2020/blob/master/problems/UOSPC%202020.png)
 
 ## div2
 
