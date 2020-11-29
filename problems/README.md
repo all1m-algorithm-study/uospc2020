@@ -1,5 +1,5 @@
 # UOSPC 2020
-![logo](https://github.com/iknoom/uospc2020/blob/master/problems/UOSPC%202020.png)
+![logo](./UOSPC2020_logo.png)
 
 ## div2
 
@@ -26,3 +26,7 @@
 | 6    | [CUTTER!](cut_leaf/cut_leaf_statement.md) | 최문기 |
 | 7    | [로봇 청소기](robotic-vacuum/robotic-vacuum.md) | 김정현 |
 | 8    | [정현이와 문기의 최선의 전략](best_strategy/best_strategy.md) | 최연웅 |
+
+## 대회 결과 및 해설
+
+링크
