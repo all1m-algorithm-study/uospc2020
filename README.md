@@ -1,4 +1,7 @@
 # UOSPC 2020
+
+![UOSPC2020](./UOSPC2020.png)
+
 # 1. 문제 아이디어 작성(markdown)
 
 ## div2
