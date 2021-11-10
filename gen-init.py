@@ -21,7 +21,7 @@ if __name__ == "__main__":
     for prob in prob_dirs:
         print(prob)
         prob_path = os.path.join("problems", prob)
-        pars_path = os.path.join(".testcases", prob)
+        pars_path = os.path.join(".testcases", prob.replace("_", "").replace("-", ""))
         os.makedirs(pars_path, exist_ok=True)
 
         tc_root = os.path.join(prob_path, "testcases")
