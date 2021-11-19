@@ -13,7 +13,8 @@ def gen_init(tc_files):
         else:
             out_files[index] = tc_file
     for i in range(len(in_files)):
-        lines.append(f" - {{in: {in_files[i]}, out: {out_files[i]}, points: 0}}")
+        points = 0 if (i < len(in_files)-1) else 100
+        lines.append(f" - {{in: {in_files[i]}, out: {out_files[i]}, points: {points}}}")
     return "\n".join(lines)
 
 if __name__ == "__main__":
